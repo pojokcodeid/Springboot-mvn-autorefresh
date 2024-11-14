@@ -9,3 +9,17 @@
 ```bash
 mvn spring-boot:run
 ```
+
+- Create Maven Project CLI
+
+```bash
+mvn archetype:generate "-DgroupId=com.example" "-DartifactId=testing" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DarchetypeVersion=1.4" "-DinteractiveMode=false"
+```
+
+#### -DgroupId=com.example: Menentukan group ID untuk proyek. Anda bisa menggantinya sesuai kebutuhan.
+
+#### -DartifactId=testing: Menentukan nama proyek Anda.
+
+#### -DarchetypeArtifactId=maven-archetype-quickstart: Menggunakan archetype quickstart untuk membuat proyek Maven dasar.
+
+#### -DinteractiveMode=false: Menjalankan perintah dalam mode non-interaktif untuk menghindari prompt tambahan.
