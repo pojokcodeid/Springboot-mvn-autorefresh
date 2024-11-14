@@ -11,6 +11,8 @@ mvn spring-boot:run
 ```
 
 - Create Maven Project CLI
+  - pastikan Sudah membuat MAVEN_HOME
+  - pastikan sudah didaftarkan sebagai env variable
 
 ```bash
 mvn archetype:generate "-DgroupId=com.example" "-DartifactId=testing" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DarchetypeVersion=1.4" "-DinteractiveMode=false"
