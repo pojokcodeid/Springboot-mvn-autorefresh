@@ -25,3 +25,16 @@ mvn archetype:generate "-DgroupId=com.example" "-DartifactId=testing" "-Darchety
 #### -DarchetypeArtifactId=maven-archetype-quickstart: Menggunakan archetype quickstart untuk membuat proyek Maven dasar.
 
 #### -DinteractiveMode=false: Menjalankan perintah dalam mode non-interaktif untuk menghindari prompt tambahan.
+
+- Selamjutnya masuk ke folder projeck
+
+```bash
+cd testing
+```
+
+- Jalankan Maven
+
+```bash
+mvn clean install
+java -cp target\testing-1.0-SNAPSHOT.jar com.example.App
+```
